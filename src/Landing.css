@@ -1,0 +1,55 @@
+.Landing {
+    height: 100vh;
+    background-image: url(content/background.svg);
+    background-repeat:  no-repeat;
+    background-size: 110vh;
+    background-position: right 20% top -10%;
+}
+
+.Intro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 12%;
+}
+
+.Name {
+    /* color: #A0DCD5; */
+    color: rgb(233, 233, 225);
+    font-size:calc(6rem + 1vw);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 4px;
+}
+
+.Name.last {
+    /* color: #D1E4DA; */
+    color: var(--text-color);
+}
+
+.LandingUnderline {
+    margin: 25px 0px 0px 0px;
+    width: calc(120px + 1vw);
+    color: var(--accent-color2);
+}
+
+.LandingLine1 {
+    margin: 10px 40px 0px 0px;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+.LandingLine2 {
+    border: 2px solid;
+    margin: 15px 0px 30px 40px;
+    border-radius: 2px;
+}
+
+.Blurb {
+    font-size: calc(1.5rem + 0.3vw);
+    line-height: 1.7;
+    width: 45%;
+    min-width: 40rem;
+}

@@ -1,0 +1,193 @@
+.Projects {
+    font-size: 2.0rem;
+    max-width: 1200px;
+    margin: 75px auto;
+    padding: 0% 5%; 
+}
+
+.ProjectsTitle {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    text-align: left;
+    margin-top: 5%;
+    padding-left: 40px;
+    color: var(--title-color);
+}
+
+.ProjectsUnderline {
+    width: 130px;
+    color: var(--accent-color2);
+}
+
+.HexagonsTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Hexagons {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-items: center;
+    margin-right: -0.5%;
+}
+
+.Hexagons.left {
+    margin-top: 60px;
+}
+ 
+.project {
+    width: 100%;
+    margin-bottom: 12%;
+}
+
+.project.left {
+    margin-top: 140px;
+}
+
+.project.right {
+    margin-top: -70px;
+}
+
+.hexagon {
+    mask-image: url(content/hexagon-rotated.svg);
+    mask-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+    transition-duration: 0.4s;
+    z-index: 1;
+}
+
+.hexagon.colour { 
+    background: url(content/color-of-hue.png);
+    background-size: contain;
+}
+
+.hexagon.alchemy {
+    background: url(content/alchemy-gui.png);
+    background-size: contain;
+}
+
+.hexagon.sudoku {
+    background: url(content/sudoku.png);
+    background-size: contain;
+}
+
+.hexagon.hopibot {
+    background: url(content/hopibot.png);
+    background-size: contain;
+}
+
+.hexagon.msgguard {
+    background: url(content/msgguard.png);
+    background-size: contain;
+}
+
+.hexagon.blob {
+    background: url(content/blob.png);
+    background-size: contain;
+}
+
+.hexagon.right {
+    margin-left: 10%;
+}
+
+.hexagon:hover {
+    transform: rotate(8.5deg);
+}
+
+.hexagon:hover .hexagon-hover {
+    opacity: 1.0;
+}
+
+.hexagon-hover {
+    background-color:  var(--title-color);
+    color: black;
+    font-size: 1.3rem;
+    letter-spacing: 1.3px;
+    padding: 0px 50px;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-8.5deg);
+    transition-duration: 0.3s;
+}
+
+.hexagon-border {
+    background: linear-gradient(140deg, var(--accent-color2) 0%, var(--accent-color1) 60%);
+    mask-image: url(content/hexagon-border1.svg);
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin-top: -315px;
+    margin-left: -70px;
+    z-index: 0;
+    transition-duration: 0.4s;
+}
+
+.hexagon-border.right {
+    margin-left: calc(10% - 70px);
+}
+
+.hexagon-button {
+    margin-top: 10%;
+    font-size: 1.6rem;
+    padding: 10px 30px;
+    border: 2px var(--accent-color2) solid;
+    background-color:  var(--title-color);
+    outline: none;
+    border-radius: 2px;
+}
+
+.hexagon-button:hover{
+    background-color: var(--accent-color2);
+    color: var(--title-color);
+}
+
+.hexagon-text {
+    position: relative;
+    z-index: 2;
+    min-width: 275px;
+    color: var(--accent-color1);
+}
+
+.hexagon-text.left {
+    margin: 0px 0px -280px 50%;
+}
+
+.hexagon-text.right {
+    margin: 80px 50% -150px 0px;
+    padding: 0px;
+    float: right;
+    width: 50%;
+}
+
+.project-banner {
+    /* background-color: #0b2039; */
+    background-color: var(--title-color);
+    color: var(--background-color);
+    padding: 12px 10px;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    text-align: left;
+    border-radius: 2px;
+}
+
+.project-tools {
+    text-align: right;
+    font-size: 1.2rem;
+    letter-spacing: 1.0px;
+    color: var(--accent-color1);
+}
+
+.project-tools.right {
+    text-align: left;
+}

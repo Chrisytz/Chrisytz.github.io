@@ -1,0 +1,94 @@
+.Experience {
+    font-size: 2.0rem;
+    max-width: 1200px;
+    margin: auto;
+    padding: 200px 0;
+}
+
+.ExperienceTitle {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    text-align: center;
+    margin-top: 5%;
+    color: var(--title-color);
+}
+
+.ExperienceUnderline {
+    margin: auto;
+    width: 130px;
+    color: var(--accent-color2);
+}
+
+.ExperienceContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3% 12%;
+}
+
+.WorkButtons {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.WorkExp {
+    font-size: 100%;
+    font-family: inherit;
+    background-color:var(--background-color);
+    border: none;
+    color: var(--text-color);
+    text-align: left;
+    padding: 25px 20px;
+}
+
+.WorkExp:hover {
+    background-color: #0b2039;
+    color: var(--accent-color1);
+}
+
+.WorkExp:focus {
+    border-left: 5px solid var(--accent-color1);
+    color: var(--accent-color1);
+    outline: none;
+    box-shadow: none;
+}
+
+.WorkContent {
+    flex-basis:  70%;
+    text-align: left;
+    padding: 0% 4%;
+}
+
+.JobTitle {
+    font-size: 2.2rem;
+    line-height: 1.8;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.JobDate {
+    color: var(--accent-color1);
+    font-size: 1.4rem;
+    margin: 0px 0px 10px 0px;
+}
+
+.JobContent {
+    font-size: 1.5rem;
+    padding: 10px 0px;
+}
+
+.Bullets {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 5px 30px;
+}
+
+.BulletPoint {
+    color: var(--accent-color1);
+
+}
+.JobBullet {
+    font-size: 1.5rem;
+    padding: 0px 0px 5px 15px;
+}

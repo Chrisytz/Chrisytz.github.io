@@ -1,0 +1,134 @@
+.About {
+    font-size: 1.7rem;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.AboutWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2% 6vw;
+}
+
+.Left {
+    flex-basis: 50%;
+    padding: 0% 3%;
+    font-size:  1.6rem;
+}
+
+.Right {
+    flex-basis: 50%;
+    padding: 0% 7%;
+    display: flex;
+    align-items: center;
+    font-size:  1.6rem;
+}
+
+.Img {
+    height: 350px;
+    mask-image: url(content/hexagon-rotated.svg);
+    z-index: 2;
+    position: relative;
+}
+
+.Img-border {
+    background: linear-gradient(140deg, var(--accent-color2) 0%, var(--accent-color1) 60%);
+    mask-image: url(content/hexagon-border1.svg);
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    position: relative;
+    margin-top: -315px;
+    margin-left: -70px;
+    z-index: 0;
+    transition-duration: 0.4s;
+}
+
+.AboutTitle {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    text-align: left;
+    color: var(--title-color);
+}
+
+.AboutUnderline {
+    margin-left: 30px;
+    width: 120px;
+    color: var(--accent-color2);
+}
+.Line1 {
+    margin-top: 10px;
+    border: 2px solid;
+    margin-right: 40px;
+    border-radius: 2px;
+
+}
+.Line2 {
+    border: 2px solid;
+    margin-top: -7px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+.About-blurb {
+    text-align: left;
+    line-height: 1.8;
+}
+
+.Skills-blurb {
+    padding: 5% 5%;
+    text-align:  center;
+    line-height: 1.8;
+}
+
+.Stats {
+    padding: 0% 5%;
+}
+
+.SkillBox {
+    width: 100%;
+    background-color: var(--title-color);
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+
+.SkillText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.SkillName {
+    text-align: left;
+}
+
+.SkillPercent {
+    text-align: right;
+}
+
+.Skill {
+    text-align: right; /* Right-align text */
+    height: 20px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+    /* border-radius: 20px 0px 0px 20px; */
+}
+
+.Python {width: 90%; background-color: #E85A71;} 
+.Cpp {width: 70%; background-color: #E55D76 ;} 
+.CSS {width: 70%; background-color: #D36D85;} 
+.Racket {width: 50%; background-color: #BF7F95 ;} 
+.Django {width: 60%; background-color: #A991A6;} 
+.React {width: 50%; background-color: #96A2B5;}
+
+
+/* .Python {width: 90%; background-color: #E85A71;} 
+.Cpp {width: 60%; background-color: #D56B7E ;} 
+.CSS {width: 70%; background-color: #BE808D;} 
+.Racket {width: 60%; background-color: #A8949C ;} 
+.Django {width: 70%; background-color: #91A9AB;} 
+.React {width: 90%; background-color: #7BBDBA;} */

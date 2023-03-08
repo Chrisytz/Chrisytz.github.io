@@ -2,37 +2,115 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.EmailLine {
+  border-left: 1.5px solid var(--text-color);
+  margin-left: 40px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Email {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: var(--text-color);
+  position: fixed;
+  right: -49px;
+  bottom: 280px;
+  transform: rotate(90deg);
+  
 }
+
+.Email:hover {
+  color: var(--accent-color1);
+}
+
+.Github {
+  transform: scale(1.3);
+  color: var(--text-color);
+  position: fixed;
+  right: 32px;
+  bottom: 160px;
+  text-decoration: none;
+}
+
+.Github:hover {
+  color: var(--accent-color1);
+}
+
+.Linkedin {
+  transform: scale(1.3);
+  color: var(--text-color);
+  position: fixed;
+  right: 32px;
+  bottom: 120px;
+  text-decoration: none;
+}
+
+.Linkedin:hover {
+  color: var(--accent-color1);
+}
+
+.Top {
+  display: flex;
+  flex-direction: row;
+}
+.Navbar {
+  overflow: hidden;
+  padding-right: 5%;
+  position: fixed;
+  right: 0;
+  z-index: 3;
+  transition-duration: 1s;
+  display:flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.Items {
+  color: var(--text-color);
+  padding: 2.0rem 3.5rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.Items:hover {
+  color: var(--accent-color1);
+}
+
+.Menu {
+  color: var(--text-color);
+  right: 30px;
+  padding: 2.3rem 0px 2.0rem 0px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  position: fixed;
+  z-index: 100;
+  transition-duration: 0.5s;
+  background-color: var(--background-color);
+  border: none;
+  transform: scale(1.5);
+}
+
+.Menu:hover {
+  color: var(--accent-color1);
+}
+
+.note {
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+  color: #707986;
+}
+
