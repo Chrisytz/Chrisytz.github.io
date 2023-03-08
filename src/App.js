@@ -58,7 +58,7 @@ class App extends React.Component {
         <Experience />
         <a name="Projects"></a>
         <Projects id="Projects"/>
-        <div className='note'> Desgined and built by Christina Zhang</div>
+        <div className='note'> Designed and built by Christina Zhang</div>
       </div>
     );
   }
