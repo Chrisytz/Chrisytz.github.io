@@ -20,14 +20,25 @@ class Experience extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        CiscoClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
-        OttawaClick:  [`var(--text-color)`, `none`],
+        HavenClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
+        CiscoClick: [`var(--text-color)`, `none`],
+        WARGClick:  [`var(--text-color)`, `none`],
         EXYClick: [`var(--text-color)`, `none`],
         VEXClick:  [`var(--text-color)`, `none`],
-        job: "Cisco",
+        job: "Haven",
+        Haven: {
+            Title: "Tools Programmer",
+            Date: "January 2023 - April 2023",
+            Content: "Tasked with designing, and implementing features for multiple content creation pipelines.",
+            Bullet: [
+                "Designed and developed Unreal plugins to export landscape and component data from Unreal for the procedural generation pipeline in C++ and Python", 
+                "Worked with the Blender API in Python, adding multiple features to an asset production pipeline to improve the usability and efficiency of its mesh exporting system", 
+                "Collaborated effectively with artists to implement new features in Raven, enhancing their workflow efficiency within Blender by over 75%"
+            ]
+        },
         Cisco: {
             Title: "Techincal Undergraduate Co-Op",
-            Date: "May - August 2022",
+            Date: "May 2022 - August 2022",
             Content: "Tasked with automating configurations of Cisco routers and full-stack development of Yangsuite-Ondatra.",
             Bullet: [
                 "Updated the IPv6 Performance Measurement API, designed and implemented configuration automation for Path Tracing and Path Assurance", 
@@ -35,14 +46,14 @@ class Experience extends React.Component {
                 "Added multiple features to Yangsuite-Ondatra with the Django framework using Python, Javascript, YANG, and Tabulator"
             ]
         },
-        Ottawa: {
-            Title: "Lifeguard and Swim Instructor",
-            Date: "August 2020 - June 2021",
-            Content: "Was held accountable for the safety of patrons and created lessons plans with shortterm and longterm learning goals.",
+        WARG: {
+            Title: "Computer Vision Team Member",
+            Date: "May 2022 - Present",
+            Content: "Active member of the computer vision sub team in the WARG design team.",
             Bullet: [
-                "Effective communication and problem solving in a professional environment", 
-                "Participated in monthly trainings and performed life saving operations", 
-                "Taught children from ages 2 - 15 swimming skills and water safety knowledge" 
+                "Refactored and developed machine learning programs using Python and YOLOv5", 
+                "Used OR-Tools to model a drone routing problem with capacity and resource constraints", 
+                "Updated and added parsing features to a QR-Code scanning module in Python" 
             ]
         },
         EXY: {
@@ -80,36 +91,49 @@ class Experience extends React.Component {
                 </div>
                 <div className='ExperienceContent'>
                     <div className='WorkButtons'>
-
+                        <button type='button' className='WorkExp' 
+                        onClick={() => {this.setState({
+                            job: "Haven",
+                            HavenClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
+                            CiscoClick: [`var(--text-color)`, `none`],
+                            WARGClick:  [`var(--text-color)`, `none`],
+                            EXYClick: [`var(--text-color)`, `none`],
+                            VEXClick:  [`var(--text-color)`, `none`]});}
+                        }
+                        style={{color: `${this.state.HavenClick[0]}`, borderLeft: `${this.state.HavenClick[1]}`}}> Haven </button>
                         <button type='button' className='WorkExp' 
                         onClick={() => {this.setState({
                             job: "Cisco", 
+                            HavenClick: [`var(--text-color)`, `none`],
                             CiscoClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
-                            OttawaClick:  [`var(--text-color)`, `none`],
+                            WARGClick:  [`var(--text-color)`, `none`],
                             EXYClick: [`var(--text-color)`, `none`],
                             VEXClick:  [`var(--text-color)`, `none`]});}
                         }
                         style={{color: `${this.state.CiscoClick[0]}`, borderLeft: `${this.state.CiscoClick[1]}`}}> Cisco </button>
                         <button type='button' className='WorkExp' onClick={() => {this.setState({
-                            job: "Ottawa", 
+                            job: "WARG", 
+                            HavenClick: [`var(--text-color)`, `none`],
                             CiscoClick: [`var(--text-color)`, `none`],
-                            OttawaClick:   [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
+                            WARGClick:   [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
                             EXYClick: [`var(--text-color)`, `none`],
                             VEXClick:  [`var(--text-color)`, `none`]});}
                         }
-                        style={{color: `${this.state.OttawaClick[0]}`, borderLeft: `${this.state.OttawaClick[1]}`}}> City of Ottawa </button>
+                        style={{color: `${this.state.WARGClick[0]}`, borderLeft: `${this.state.WARGClick[1]}`}}> WARG </button>
                         <button type='button' className='WorkExp' onClick={() => {this.setState({
                             job: "EXY", 
+                            HavenClick: [`var(--text-color)`, `none`],
                             CiscoClick: [`var(--text-color)`, `none`],
-                            OttawaClick:  [`var(--text-color)`, `none`],
+                            WARGClick:  [`var(--text-color)`, `none`],
                             EXYClick:  [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
                             VEXClick:  [`var(--text-color)`, `none`]});}
                         }
                         style={{color: `${this.state.EXYClick[0]}`, borderLeft: `${this.state.EXYClick[1]}`}}> EXY Society </button>
                         <button type='button' className='WorkExp' onClick={() => {this.setState({
                             job: "VEX", 
+                            HavenClick: [`var(--text-color)`, `none`],
                             CiscoClick: [`var(--text-color)`, `none`],
-                            OttawaClick:  [`var(--text-color)`, `none`],
+                            WARGClick:  [`var(--text-color)`, `none`],
                             EXYClick: [`var(--text-color)`, `none`],
                             VEXClick:   [`var(--accent-color1)`, `5px solid var(--accent-color1)`]});}
                         }

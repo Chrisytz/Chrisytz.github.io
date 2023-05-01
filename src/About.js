@@ -37,7 +37,7 @@ function Content() {
                     <span style={{color: `var(--text-accent)`}}> creating simulations</span>. 
                     You can check out some of my projects below!
 
-                    I just finished my first Co-op term at <span style={{color: `var(--text-accent)`}}> Cisco Systems </span> and am looking for new opportunities in January 2023.
+                    I just finished my second Co-op term at <span style={{color: `var(--text-accent)`}}> Haven Interactive Studios </span> and am looking for new opportunities in Fall 2023.
 
                 </div>
             </div>
