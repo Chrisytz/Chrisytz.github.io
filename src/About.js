@@ -29,15 +29,12 @@ function Content() {
                 </div>
                 <div className="About-blurb">
                 
-                    Hi, I'm Christina and I am passionate about creating  <span style={{color: `var(--text-accent)`}}> visual coding projects. </span>
-                    I've loved art since I was a kid, and after being introduced to programming in grade, 11 I began  
-                    <span style={{color: `var(--text-accent)`}}> building websites</span>,   
-                    <span style={{color: `var(--text-accent)`}}> designing games</span>,  
-                    <span style={{color: `var(--text-accent)`}}> applying algorithms </span> and,  
-                    <span style={{color: `var(--text-accent)`}}> creating simulations</span>. 
-                    You can check out some of my projects below!
+                    Hey there, I'm Christina! I just completed my third internship at a Y-Combinator backed startup named Campfire where I developed a full-stack CMS app to manage LLM prompts and contributed new tools and features to our AI chat product.
 
-                    I just finished my second Co-op term at <span style={{color: `var(--text-accent)`}}> Haven Interactive Studios </span> and am looking for new opportunities in Fall 2023.
+                    Beyond that, my project porfolio reflects my passion and diverse interests as I've worked on many projects ranging from a full-stack application that uses machine learning to detect foods and generate recipes, to a video game inspired by one of my favorite mobile games, to a rienforcement learning simulation. You can check out some of these out below!
+
+                    In my free time, I love to rock climb, figure skate and create art! I'm currently seeking Summer 2024 internships, and I'd be excited to hear from your team if you think I'd be a good fit!
+
 
                 </div>
             </div>
@@ -48,12 +45,17 @@ function Content() {
                         I'm always ready to add a new skill to this list!
                     </div>
                     <div className="Stats">
-                        <Skill name="Python" skillName="Python" percentage="80%" />
+                        <Skill name="Python" skillName="Python" percentage="90%" />
                         <Skill name="Cpp" skillName="C/C++" percentage="70%" />
-                        <Skill name="CSS" skillName="HTML/CSS/JS" percentage="70%" />
-                        <Skill name="Racket" skillName="Java" percentage="50%" />
-                        <Skill name="Django" skillName="Django" percentage="60%" />
-                        <Skill name="React" skillName="React" percentage="50%" />
+                        <Skill name="CSharp" skillName="C#" percentage="80%" />
+                        <Skill name="Javascript" skillName="Javascript/Typescript" percentage="70%" />
+                        <Skill name="Java" skillName="Java" percentage="40%" />
+                        <Skill name="Django" skillName="Django" percentage="40%" />
+                        <Skill name="React" skillName="React" percentage="70%" />
+                        <Skill name="AWS" skillName="AWS" percentage="70%" />
+                        <Skill name="NodeJS" skillName="NodeJS" percentage="80%" />
+                        <Skill name="TensorFlow" skillName="TensorFlow" percentage="70%" />
+                        <Skill name="Unity" skillName="Unity" percentage="80%" />
                     </div>
                 </div> 
             </div>

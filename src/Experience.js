@@ -20,12 +20,23 @@ class Experience extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        HavenClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
+        CampfireClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
+        HavenClick: [`var(--text-color)`, `none`],
         CiscoClick: [`var(--text-color)`, `none`],
         WARGClick:  [`var(--text-color)`, `none`],
         EXYClick: [`var(--text-color)`, `none`],
         VEXClick:  [`var(--text-color)`, `none`],
-        job: "Haven",
+        job: "Campfire",
+        Campfire: {
+            Title: "Software Developer",
+            Date: "September 2023 - December 2023",
+            Content: "Contributed to Unity tools, in game features and full stack web CMS at a YCombinator-backed startup.",
+            Bullet: [
+                "Developed a full stack web CMS app for management of LLM prompts using Typescript, Next.js, RefineJS, Firebase and vercel, building a robust and scalable framework", 
+                "Engineered and integrated a bootup state management tool in C# into the Unity Editor and in-game environment to increasing overall development efficiency", 
+                "Contributed several full stack user facing features for a multiplatform live service MMO game implemented with Unity, DotNet and Firebase on a tight release schedule"
+            ]
+        },
         Haven: {
             Title: "Tools Programmer",
             Date: "January 2023 - April 2023",
@@ -56,16 +67,6 @@ class Experience extends React.Component {
                 "Updated and added parsing features to a QR-Code scanning module in Python" 
             ]
         },
-        EXY: {
-            Title: "IT Developer",
-            Date: "September 2020 - April 2022",
-            Content: "Developed a wbeiste using HTML, CSS, and Javascript in a team environment to provide youth with relevant 21st century skills.",
-            Bullet: [
-                "Worked and communicated cross department to provide IT solutions", 
-                "Implemented website designs on a weekly basis", 
-                "Developed a discord bot to monitor the organization discord and to provide relavent information on important 21st century skills"
-            ] 
-        },
         VEX: {
             Title: "2381Z Robotics Member",
             Date: "May 2019 - March 2021",
@@ -91,50 +92,51 @@ class Experience extends React.Component {
                 </div>
                 <div className='ExperienceContent'>
                     <div className='WorkButtons'>
+                    <button type='button' className='WorkExp' 
+                        onClick={() => {this.setState({
+                            job: "Campfire",
+                            CampfireClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
+                            HavenClick: [`var(--text-color)`, `none`],
+                            CiscoClick: [`var(--text-color)`, `none`],
+                            WARGClick:  [`var(--text-color)`, `none`],
+                            VEXClick:  [`var(--text-color)`, `none`]});}
+                        }
+                        style={{color: `${this.state.CampfireClick[0]}`, borderLeft: `${this.state.CampfireClick[1]}`}}> Campfire </button>
                         <button type='button' className='WorkExp' 
                         onClick={() => {this.setState({
                             job: "Haven",
+                            CampfireClick: [`var(--text-color)`, `none`],
                             HavenClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
                             CiscoClick: [`var(--text-color)`, `none`],
                             WARGClick:  [`var(--text-color)`, `none`],
-                            EXYClick: [`var(--text-color)`, `none`],
                             VEXClick:  [`var(--text-color)`, `none`]});}
                         }
                         style={{color: `${this.state.HavenClick[0]}`, borderLeft: `${this.state.HavenClick[1]}`}}> Haven </button>
                         <button type='button' className='WorkExp' 
                         onClick={() => {this.setState({
                             job: "Cisco", 
+                            CampfireClick: [`var(--text-color)`, `none`],
                             HavenClick: [`var(--text-color)`, `none`],
                             CiscoClick: [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
                             WARGClick:  [`var(--text-color)`, `none`],
-                            EXYClick: [`var(--text-color)`, `none`],
                             VEXClick:  [`var(--text-color)`, `none`]});}
                         }
                         style={{color: `${this.state.CiscoClick[0]}`, borderLeft: `${this.state.CiscoClick[1]}`}}> Cisco </button>
                         <button type='button' className='WorkExp' onClick={() => {this.setState({
                             job: "WARG", 
+                            CampfireClick: [`var(--text-color)`, `none`],
                             HavenClick: [`var(--text-color)`, `none`],
                             CiscoClick: [`var(--text-color)`, `none`],
                             WARGClick:   [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
-                            EXYClick: [`var(--text-color)`, `none`],
                             VEXClick:  [`var(--text-color)`, `none`]});}
                         }
                         style={{color: `${this.state.WARGClick[0]}`, borderLeft: `${this.state.WARGClick[1]}`}}> WARG </button>
                         <button type='button' className='WorkExp' onClick={() => {this.setState({
-                            job: "EXY", 
-                            HavenClick: [`var(--text-color)`, `none`],
-                            CiscoClick: [`var(--text-color)`, `none`],
-                            WARGClick:  [`var(--text-color)`, `none`],
-                            EXYClick:  [`var(--accent-color1)`, `5px solid var(--accent-color1)`],
-                            VEXClick:  [`var(--text-color)`, `none`]});}
-                        }
-                        style={{color: `${this.state.EXYClick[0]}`, borderLeft: `${this.state.EXYClick[1]}`}}> EXY Society </button>
-                        <button type='button' className='WorkExp' onClick={() => {this.setState({
                             job: "VEX", 
+                            CampfireClick: [`var(--text-color)`, `none`],
                             HavenClick: [`var(--text-color)`, `none`],
                             CiscoClick: [`var(--text-color)`, `none`],
                             WARGClick:  [`var(--text-color)`, `none`],
-                            EXYClick: [`var(--text-color)`, `none`],
                             VEXClick:   [`var(--accent-color1)`, `5px solid var(--accent-color1)`]});}
                         }
                         style={{color: `${this.state.VEXClick[0]}`, borderLeft: `${this.state.VEXClick[1]}`}}> VEX </button>

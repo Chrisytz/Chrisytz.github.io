@@ -12,7 +12,7 @@
 }
 
 .Left {
-    flex-basis: 50%;
+    flex-basis: 60%;
     padding: 0% 3%;
     font-size:  1.6rem;
 }
@@ -118,17 +118,15 @@
     /* border-radius: 20px 0px 0px 20px; */
 }
 
-.Python {width: 90%; background-color: #E85A71;} 
-.Cpp {width: 70%; background-color: #E55D76 ;} 
-.CSS {width: 70%; background-color: #D36D85;} 
-.Racket {width: 50%; background-color: #BF7F95 ;} 
-.Django {width: 60%; background-color: #A991A6;} 
-.React {width: 50%; background-color: #96A2B5;}
-
-
-/* .Python {width: 90%; background-color: #E85A71;} 
-.Cpp {width: 60%; background-color: #D56B7E ;} 
-.CSS {width: 70%; background-color: #BE808D;} 
-.Racket {width: 60%; background-color: #A8949C ;} 
-.Django {width: 70%; background-color: #91A9AB;} 
-.React {width: 90%; background-color: #7BBDBA;} */
+/* good site: https://colordesigner.io/gradient-generator */
+.Python {width: 90%; background-color: #e85971;} 
+.Cpp {width: 70%; background-color: #e36086 ;} 
+.CSharp {width: 80%; background-color: #db6998 ;} 
+.Javascript {width: 70%; background-color: #d073a8;} 
+.Java {width: 40%; background-color: #c37cb3 ;} 
+.Django {width: 40%; background-color: #b685bb;} 
+.React {width: 70%; background-color: #aa8dc0;}
+.AWS {width: 70%; background-color: #a094c1;}
+.NodeJS {width: 80%; background-color: #999abf;}
+.TensorFlow {width: 70%; background-color: #969ebb;}
+.Unity {width: 80%; background-color: #97a2b5;}
