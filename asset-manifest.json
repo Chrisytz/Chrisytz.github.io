@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f1038bb.css",
-    "main.js": "/static/js/main.7b6531b7.js",
+    "main.css": "/static/css/main.51e59132.css",
+    "main.js": "/static/js/main.54e29231.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/profile.jpg": "/static/media/profile.d9e38a54fd07caa77fc3.jpg",
+    "static/media/snapchefc.png": "/static/media/snapchefc.3109a46544b3d7a915aa.png",
     "static/media/color-of-hue.png": "/static/media/color-of-hue.cb4d3287666f84eb1700.png",
     "static/media/msgguard.png": "/static/media/msgguard.bbcfea748a65a26bcdb2.png",
     "static/media/resume.pdf": "/static/media/resume.29b4cba354cd0066ebcb.pdf",
+    "static/media/lol4c.jpg": "/static/media/lol4c.5bb03204e9b16e354873.jpg",
     "static/media/hopibot.png": "/static/media/hopibot.6668d2204dd9bab2848c.png",
     "static/media/alchemy-gui.png": "/static/media/alchemy-gui.946a9bc6ae1a297c48ad.png",
     "static/media/sudoku.png": "/static/media/sudoku.e01c7764d0d0d2c48b77.png",
@@ -15,12 +17,12 @@
     "static/media/hexagon-border1.svg": "/static/media/hexagon-border1.8ff328a37822b7972b95.svg",
     "static/media/hexagon-rotated.svg": "/static/media/hexagon-rotated.6cc969538c2c6249ae1b.svg",
     "index.html": "/index.html",
-    "main.2f1038bb.css.map": "/static/css/main.2f1038bb.css.map",
-    "main.7b6531b7.js.map": "/static/js/main.7b6531b7.js.map",
+    "main.51e59132.css.map": "/static/css/main.51e59132.css.map",
+    "main.54e29231.js.map": "/static/js/main.54e29231.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f1038bb.css",
-    "static/js/main.7b6531b7.js"
+    "static/css/main.51e59132.css",
+    "static/js/main.54e29231.js"
   ]
 }
