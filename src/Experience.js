@@ -55,7 +55,7 @@ class Experience extends React.Component {
             Bullet: [
                 "Significantly optimized the default landscape and component data export from Unreal to Houdini by developing Unreal plugins in C++ and Python for the procedural generation pipeline", 
                 "Achieved a 65% decrease in export time by optimizing core components of the cross-DCC mesh exporting pipeline", 
-                "Significantly improved Blender workflow efficiency through artist collaboration and feature implementation within Rave"
+                "Significantly improved Blender workflow efficiency through artist collaboration and feature implementation within Raven"
             ]
         },
         Cisco: {
