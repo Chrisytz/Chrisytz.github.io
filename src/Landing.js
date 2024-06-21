@@ -15,7 +15,7 @@ function Intro() {
                         <hr className="LandingLine2"></hr>
             </div>
             <div className='Blurb'>
-                <p> I'm a 3A Computer Science student at the Univeristy of Waterloo. I'm interested in game dev, full-stack development and machine learning and am open to new opportunities for summer 2024.</p>
+                <p> Hi! I'm a passionate computer science student at the University of Waterloo with over 5 years of development exerperience, currently looking for Summer 2025 opportunities.</p>
             </div>
         </div>
     );
